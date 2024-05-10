@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f2894097.css",
+    "main.js": "/static/js/main.c090fb3d.js",
+    "static/media/growth.jpg": "/static/media/growth.12e2e5f95a9be0ba04ef.jpg",
+    "static/media/cupofcoffee.jpg": "/static/media/cupofcoffee.131e623510d566e23be2.jpg",
+    "static/media/workspace.jpg": "/static/media/workspace.8c3cc22082b3e931ac5f.jpg",
+    "static/media/working.jpg": "/static/media/working.2f2b19f53133d9940aa4.jpg",
+    "index.html": "/index.html",
+    "static/media/cpu.svg": "/static/media/cpu.de3ab7e5834af22d801d9713d54b733c.svg",
+    "static/media/calendar3.svg": "/static/media/calendar3.5663104c698f078539a8d2daff68e558.svg",
+    "static/media/box-seam.svg": "/static/media/box-seam.9bf7f04b3935d38747b0cebdd61e902e.svg",
+    "static/media/archive.svg": "/static/media/archive.a8b9cafa1152fed3cd6b736de513df04.svg",
+    "main.f2894097.css.map": "/static/css/main.f2894097.css.map",
+    "main.c090fb3d.js.map": "/static/js/main.c090fb3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2894097.css",
+    "static/js/main.c090fb3d.js"
+  ]
+}
