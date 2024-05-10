@@ -1,3 +1,13 @@
 :root{
     --background: #333;
+    --bg2: #091450;
+    --bg3: #dcdde4;
+    --bg4: #1c1c1d;
+
+
+    --accent: #f3a837;
+    --accent2: #1a37df;
+
+
+    --font-color: white;
 }

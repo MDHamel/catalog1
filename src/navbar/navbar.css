@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+#logo{
+    color: white;
+
+    padding: 4px 20px;
+
+    font-family: Montserrat, gerogia;
+    font-size: 28px;
+    font-weight: 700;
+
+    width: 160px;
+    height: 54px;
+    text-align: center;
+
+    user-select: none;
+    cursor: pointer;
+
+    border: 2px white solid;
+
+    transition: all .33s ease-in;
+}
+
+#logo:hover {
+    color: var(--accent);
+    border: var(--accent) 2px solid;
+}
+
+.nav-link{
+    display: inline-block;
+    position: relative;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color .35s;
+}
+
+.nav-link:active {
+    color: var(--accent);
+}
+
+/* This section does an underline effect when the user hovers over a nav item */
+
+nav a:not(.noUnderline)::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--font-color);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
+    transform-origin: top left;
+}
